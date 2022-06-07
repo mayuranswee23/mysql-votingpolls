@@ -173,8 +173,6 @@ app.put('/api/candidate/:id', (req, res)=> {
       });
     });
 
-
-
 //get party information 
 app.get('/api/parties', (req, res) => {
     const sql = `SELECT * FROM parties`;
